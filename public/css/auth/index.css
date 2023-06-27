@@ -1,0 +1,83 @@
+.page-form {
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+.page-form .d-flex-form input {
+    font-weight: 100;
+    width: 100%;
+    height: 48px;
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+}
+
+
+.page-form select {
+    color: #8c8c8c;
+    font-weight: 100;
+    width: 100%;
+    height: 48px;
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+}
+
+.box-form {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 65rem;
+    width: 90%;
+}
+
+#hk-form {
+    width: 90%;
+    background: white;
+    padding: 20px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+}
+
+#hk-form .d-flex-form p {
+    padding-top: 15px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+}
+
+#hk-form .text-center {
+    padding-top: 20px;
+}
+
+#hk-form .text-center button {
+    font-size: 16px;
+    width: 100%;
+    height: 48px;
+    background: #b2d235;
+    border: none;
+    cursor: pointer;
+    color: #1f1f1f;
+}
+
+.forgot-password {
+    font-size: 14px;
+    color: #B2D235;
+    text-align: right;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .box-form {
+        top: -200px;
+        width: auto;
+    }
+    #hk-form {
+        width: 450px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {}
